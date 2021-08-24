@@ -1,4 +1,4 @@
-All materials including Solids, Liquids, and gas ontians two basic particles
+All materials including Solids, Liquids, and gas contains two basic particles
 1. Electrons: Smallest amount of electric charge with negative polarity (-)
 2. Protons: Smallest amount of electric charge with positive polarity (+)
 
