@@ -25,18 +25,19 @@ Classifications of materials
 	- Application: Transfer of electric energy
 2. Insulator: electrons stay in their own orbits. E.g. Glass, rubber, plastic, wood. Are able to hold/store electricity (dielectric). Last shell can not take more than 8.
 	- Application: 
-		a. Prevent current flow 
-		b. Store electric charge
+a. Prevent current flow 
+b. Store electric charge
 3. Semiconductor: Conduct less than metal but more than Insulators. All elements with four electrons in the last shell is called a semi-conductor. E.g. Carbon, Silicon.
 
 Unit of Electric charge:
 
 rubbing a comb ona sheet of paper creates a static charge
+```
   /\       /\       /\
  /  \     /  \     /  \
  +> <-  <+    +> <-    ->
 attract   repel  coulomb (C)
-
+```
 1 Coulomb (C): Equal to the charge of 6.242x10^18 electrons or Protons
 
 X = 1/6.242x10^18 = 1.6-x(10^-10)C
