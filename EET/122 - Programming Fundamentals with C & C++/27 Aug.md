@@ -26,4 +26,28 @@ cout.precision(2); // Specified number of decimal points
 
 The code above rounds up the number 1.21596 to 1.22
 
+## cin Statements
+- A `cin` statement sets variable equal to values typed in at the keyboard.
+- When a program executes the input statement it waits for user to provide input. The user also needs to hit the Enter key so that th eprogram accepts the input.
 
+```cpp
+cin >> Variable_1 >> Variable_2 >> ...;
+```
+
+Example 1:
+
+```cpp
+cin >> price;
+```
+
+Example 2:
+```cpp
+cin >> number >> size;
+```
+
+Example 3:
+```cpp
+cout << "Please enter the values: ";
+
+cin >> price;
+```
