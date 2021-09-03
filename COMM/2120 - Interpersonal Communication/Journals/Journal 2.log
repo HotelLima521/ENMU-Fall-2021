@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021 Gentoo Linux) (preloaded format=pdflatex 2021.8.19)  2 SEP 2021 22:13
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021 Gentoo Linux) (preloaded format=pdflatex 2021.8.19)  2 SEP 2021 22:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -133,7 +133,7 @@ Here is how much of TeX's memory you used:
 sr/share/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texmf-dist/fonts/ty
 pe1/urw/times/utmr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmri8a.p
 fb>
-Output written on "Journal 2.pdf" (2 pages, 25168 bytes).
+Output written on "Journal 2.pdf" (2 pages, 25180 bytes).
 PDF statistics:
  20 PDF objects out of 1000 (max. 8388607)
  13 compressed objects within 1 object stream
