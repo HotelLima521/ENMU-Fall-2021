@@ -51,12 +51,12 @@ int main(){
 	if(user_in < -5){
 		cout << error_0 << endl;
 		// And here
-		problem_1();
+		problem_2();
 	}
 	else if(user_in_1 > 20){
 		cout << error_0 << endl;
 		// And here
-		problem_1();
+		problem_2();
 	}
 	else if(user_in_1 <= 20 && user_in >= -5){
 		cout << "The number that you have entered is valid." << endl;
@@ -65,7 +65,7 @@ int main(){
 		// This is mostly for if a user was to enter a float when they weren't supposed to.
 		cout << error_0 << endl;
 		// And here
-		problem_1();
+		problem_2();
 	}
 	
 	cout << "Would you like to add, subtract, multiply, divide, or modulate these numbers?\n+ = Add\n- = Subtract\n* = Multiply\n/ = Divide\n% = Modulus\n" << '>';
