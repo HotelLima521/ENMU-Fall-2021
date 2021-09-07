@@ -14,6 +14,38 @@ void problem_2(){
 	cout << "Please enter a number between -5 and 20: \n" << '>';
 	cin >> user_in_1;
 }
+int arithmetic(){
+	int user_out;
+	
+	cout << "Would you like to add, subtract, multiply, divide, or modulate these numbers?\n+ = Add\n- = Subtract\n* = Multiply\n/ = Divide\n% = Modulus\n" << '>';
+	cin >> user_in;
+
+	if(user_in == '+'){
+		user_out = user_in_0 + user_in_1;
+		cout << "You have chosen to add the two numbers you have entered together. Here is the result: " << user_out << endl;
+	}
+	else if(user_in == '-'){
+		user_out = user_in_0 - user_in_1;
+		cout << "You have chosen to subtact the two numbers you have entered together. Here is the result: " << user_out << endl;
+	}
+	else if(user_in == '*'){
+		user_out = user_in_0 * user_in_1;
+		cout << "You have chosen to multiply the two numbers you have entered together. Here is the result: " << user_out << endl;
+	}
+	else if(user_in == '/'){
+		user_out = user_in_0 / user_in_1;
+		cout << "You have chosen to divide the two numbers you have entered together. Here is the result: " << user_out << endl;
+	}
+	else if(user_in == '%'){
+		user_out = user_in_0 % user_in_1;
+		cout << "You have chosen to modulate the two numbers you have entered together. Here is the result: " << user_out << endl;
+	}
+	else{
+		cout << "Error: Invalid Operation" << endl;
+	}
+	
+	return 0;
+}
 int main(){
 
 	string name = "Derek White";
@@ -62,36 +94,7 @@ int main(){
 	while(user_in_1 >= -5 && user_in_1 <=20);
 
 	// Arithmetic Portion:
-	double user_out;
-	
-	cout << "Would you like to add, subtract, multiply, divide, or modulate these numbers?\n+ = Add\n- = Subtract\n* = Multiply\n/ = Divide\n% = Modulus\n" << '>';
-	cin >> user_in;
-
-	if(user_in == '+'){
-		user_out = user_in_0 + user_in_1;
-		cout << "You have chosen to add the two numbers you have entered together. Here is the result: " << user_out << endl;
-	}
-	else if(user_in == '-'){
-		user_out = user_in_0 - user_in_1;
-		cout << "You have chosen to subtact the two numbers you have entered together. Here is the result: " << user_out << endl;
-	}
-	else if(user_in == '*'){
-		user_out = user_in_0 * user_in_1;
-		cout << "You have chosen to multiply the two numbers you have entered together. Here is the result: " << user_out << endl;
-	}
-	else if(user_in == '/'){
-		user_out = user_in_0 / user_in_1;
-		cout << "You have chosen to divide the two numbers you have entered together. Here is the result: " << user_out << endl;
-	}
-	else if(user_in == '%'){
-		user_out = user_in_0 % user_in_1;
-		cout << "You have chosen to modulate the two numbers you have entered together. Here is the result: " << user_out << endl;
-	}
-	else{
-		cout << "Error: Invalid Operation" << endl;
-	}
-
-
+	arithmetic();
 
 	return 0;
 }
