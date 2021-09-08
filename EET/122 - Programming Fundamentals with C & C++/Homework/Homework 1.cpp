@@ -26,7 +26,7 @@ int arithmetic(){
 	}
 	else if(user_in == '-'){
 		user_out = user_in_0 - user_in_1;
-		cout << "You have chosen to subtact the two numbers you have entered together. Here is the result: " << user_out << endl;
+		cout << "You have chosen to subtract the two numbers you have entered together. Here is the result: " << user_out << endl;
 	}
 	else if(user_in == '*'){
 		user_out = user_in_0 * user_in_1;
