@@ -33,10 +33,20 @@ int arithmetic(){
 		cout << "You have chosen to multiply the two numbers you have entered together. Here is the result: " << user_out << endl;
 	}
 	else if(user_in == '/'){
+		do {
+			cout << "Invalid Operation, you cannot divide by Zero." << endl;
+			break;
+		}
+		while(user_in_1 == 0);
 		user_out = user_in_0 / user_in_1;
 		cout << "You have chosen to divide the two numbers you have entered together. Here is the result: " << user_out << endl;
 	}
 	else if(user_in == '%'){
+		do {
+			cout << "Invalid Operation, you cannot divide by Zero." << endl;
+			exit;
+		}
+		while(user_in_1 == 0);
 		user_out = user_in_0 % user_in_1;
 		cout << "You have chosen to modulate the two numbers you have entered together. Here is the result: " << user_out << endl;
 	}
@@ -67,7 +77,7 @@ int main(){
 			continue;
 		}
 	
-	while(user_in_0 < 0 != user_in_0 > 50);
+		while(user_in_0 < 0 != user_in_0 > 50);
 	}
 	do{
 		cout << "The number that you have entered is valid." << endl;
@@ -85,7 +95,7 @@ int main(){
 			continue;
 		}
 	
-	while(user_in_1 < -5 != user_in_1 > 20);
+		while(user_in_1 < -5 != user_in_1 > 20);
 	}
 	do{
 		cout << "The number that you have entered is valid." << endl;
