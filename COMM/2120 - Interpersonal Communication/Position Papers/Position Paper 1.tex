@@ -3,6 +3,25 @@
 \usepackage{setspace}
 \doublespacing
 \usepackage[margin=1in]{geometry}
+
+\usepackage{rotating}
+\usepackage{multirow}
+\usepackage{lineno}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\lhead{}
+\lfoot{}
+\cfoot{}
+\rfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+\setlength\headsep{0.333in}
+\newcommand{\bibent}{\noindent \hangindent 40pt}
+\newenvironment{workscited}{\newpage \begin{center} Works Cited \end{center}}{\newpage }
+
+
+
+
 \begin{document}
 \title{Position Paper 1}
 % The purpose of this assignment is for each student to demonstrate knowledge of topics covered thus far in Interpersonal Communication. The position paper gives each student the opportunity to apply concepts from the text, lectures, and classroom discussions to real life examples and experiences. You will have two of these due during the course of the semester. You may choose your own topic about which to write. Each paper will be graded based on the originality and thoroughness of content, your ability to articulate and defend your chosen position, and the use of vivid and appropriate examples.
@@ -18,26 +37,68 @@
 %    Does culture, gender, or personality have the most significant impact upon our perceptions in interpersonal communication?
 \par
 % Intro
-I personally believe that Interpersonal Communication is constantly in motion and changing over time. The more integrating cultures become, the more we begin to understand each other, allowing us to understand when one thing we say can be quite insulting or a really sweet compliment. For example, my Grandparents grew up prior to both Women's suffrage and the Civil Rights Movement. Their perspectives on  both Black people and Women in politics as well as the work force were quite a bit different in comparison to my generation. As time evolves, communication \emph{must} move with it. I will now list some important cases in point.
+I personally believe that Interpersonal Communication is constantly in motion and changing over time. The more integrated cultures become and the more we begin to understand each other, it allows us to understand when one thing we say can be quite insulting or a really sweet compliment. For example, my Grandparents grew up prior to both Women's suffrage and the Civil Rights Movement. Their perspectives on  both Black people and Women in politics as well as the work force were quite a bit different in comparison to my generation. As time evolves, communication \emph{must} move with it. I will now list some important cases in point.
 \par
 % English Now vs Then
-English today is vastly different in comparison to the English of yesterday. We have seen accents in the United States change wildly due to early colonists attempting to mimic the Aristrocatic English to fit in better. At some point the accent stuck, leaving us with a relatively unique accent. The southern accent being the closest mimic of the English accent due to Slave Owners being in a higher economic status in comparison to most Northern Americans. Coincidentally, during the United States Civil War, England directly supported the South which could have something to do with the accents as well since there would be interest in the livelihood of various cotton plantations that England sourced from. 
+English today is vastly different in comparison to the English of yesterday. We have seen accents in the United States change wildly due to early colonists attempting to mimic the Aristrocatic English to fit in better. At some point the accent stuck, leaving us with a relatively unique accent. The southern accent is the closest mimic of the English accent due to Slave Owners being in a higher economic status in comparison to most Northern Americans. Coincidentally, during the United States Civil War, England directly supported the South which could have something to do with the accents as well, since there would be interest in the livelihood of various cotton plantations that England sourced from (Beckert 1405-1438)(Stern 0:00-3:47). 
 \par
 % Romance Languages
-Romance languages have also significantly changed. Romance languages, stemming from Latin, have split off into various other sub-languages such as: Spanish, Italian, French, Portuguese, Romanian, Catalan, amongst a few other less spoken ones. After the fall of the Roman Empire, I am assuming that each of these languages evolved to fit in with their people. Because the Roman Empire lasted between 27 B.C. to 476 A.D., that was far more than enough time for many sects of the language to evolve and split.
+Romance languages have also significantly changed. Romance languages, stemming from Vulgar Latin, have split off into various other sub-languages such as: Spanish, Italian, French, Portuguese, Romanian, Catalan, amongst a few other less spoken ones. After the fall of the Roman Empire, I am assuming that each of these languages evolved to fit in with their people. The Roman Empire lasted between 27 B.C. to 476 A.D., which was far more than enough time for many sects of the language to evolve and split. The term "Romance" itself is from the term \textit{romanice} which translates to "In Roman". (Herman 108-155) 
 \par
 % Germanic Languages
-Like Romance languages, Germanic languages have morphed quite a bit too. All Germanic languages are thought to have been decended from a proto-germanic language, which then split into quite a variety. For example: English is the most widely spoken Germanic language. However, there is also German, Dutch, Danish and other Nordic languages. The vast majority of countries that speak Germanic languages were conquered by the Romans, and began to adopt some pieces of their early Romance language into their native Germanic languages; which leads me to my next topic.
+Like Romance languages, Germanic languages have morphed quite a bit, too. I personally am not too familiar with the origination of Germanic languages other than minor tribes stemming from Denmark (Bell-Fialkoll 177), however I can speak about how English has become both the dominant modern Germanic language, as well as the dominant language overall. Similar to the Romans in the previous paragraph, Britain had a massive Empire and controlled the vast majority of the world. Thus, due to Britain's control over many geographical regions of Earth, the language was also brought and enforced. To give a bit of an idea how influential Imperial Britain was overall, the British Empire had influence over 412 million people in 1913, which was 23\% of the global population at the time (Maddison 97, 241).
 \par
 % Culmination of Languages combining into one (e.g. Spanglish)
-Due to intermingling between cultures over thousands of years, modern language has evolved to more or less morph into each other. Modern implementations we can see it with "Spanglish" where Spanish and English is used within the same sentence, mostly by Mexican-Americans. However, English, being a Germanically dominant language has adopted quite a bit of Romance language itself. Olde English was very different from Middle-English, as well as today's Modern English. Olde English was exclusively Germanic, Middle English included a lot of words from Old French. Modern English has many sub-dialects itself, to include British (which itself has sub-dialects), North American (Which of course has American and Canadian English), Australian and New Zealand English, South African English, and that's just to name a few! Modern English makes use of words from Latin, French, Spanish, and even some Nordic languages like Danish (Bluetooth, a wireles technology that use nearly every day was named after the Danish King Harald Bluetooth, and the logo is Bluetooth's runic initials merged together).
+Due to intermingling between cultures over thousands of years, modern language has evolved to more or less morph into each other. Modern implementations we can see it with "Spanglish" where Spanish and English is used within the same sentence, mostly by Mexican-Americans. However, English, being a Germanically dominant language has adopted quite a bit of Romance language as well. Olde English was very different from Middle-English, as well as today's Modern English. Olde English was exclusively Germanic (Shore 393) while, Middle English included a lot of words from Old Norman (Cowie). Modern English has many sub-dialects, including British (which itself has sub-dialects), North American (Which, of course, has American and Canadian English), Australian and New Zealand English, South African English, and that's just to name a few! Modern English makes use of words from Latin, French, Spanish, and even some Nordic languages like Danish (Bluetooth, a wireless technology that use nearly every day was named after the Danish King Harald Bluetooth, and the logo is Bluetooth's runic initials merged together (Kardach)).
 \par
 % Pirahan People
-There is a tribe of people in the Amazon that greatly intrigues me. They are called the Pirah\~{a} People. Their way of thinking, and thus communicating is \emph{so} significantly different from us it's mind boggling. They, from our current understanding, have no concept of abstract thought. Everything that the Pirah\~{a}n's communicate to each other with is objects that they can physically see in the here and now. A Christian missionary went over to attempt to convert some of the tribal members, and the translator found it to be impossible to translate since they could not communicate the book, or prophets since text had no meaning, nor could they see the prophet that the Missionary was trying to talk to them about. It is theorized with the Pirah\~{a}ns that if you were to leave their vision, you would simply cease to exist. Mathematics have no meaning, there is not \emph{One Item, Two Items, Hundreds of Items...} there is simply \emph{Few Items}, or \emph{Many Items}.
+There is a tribe of people in the Amazon that greatly intrigues me. They are called the Pirah\~{a} People. Their way of thinking, and thus communicating is \emph{so} significantly different from us, it's mind boggling. They, from our current understanding, have no concept of abstract thought. Everything that the Pirah\~{a}n's communicate to each other with is objects that they can physically see in the here and now. A Christian missionary went over to attempt to convert some of the tribal members, and the translator found it to be impossible to translate, since they could not communicate the book, or prophets since text had no meaning, nor could they see the prophet that the Missionary was trying to talk to them about. It is theorized with the Pirah\~{a}ns that if you were to leave their vision, you would simply cease to exist. Mathematics have no meaning, there is not \emph{One Item, Two Items, Hundreds of Items...} there is simply \emph{Few Items}, or \emph{Many Items} (Smith 7:42-11:27).
 \par
+
 % Symbolism, Modern and Archaic
-Symbolism, and speaking in code is exceptionally important in Interpersonal Communication evolving over time. From Hieroglyphics to Morese code, emoticons to braille. Symbolism is incredibly important for high-context sub-cultures. For example, morse code is a significant requirement for military operations too sensitive to utilize radio signals which could give away communication. Morse code would additionally be important for operators on the ground within close proximity to opposing forces, disallowing said operators to speak anything vocally-- Communication must then be done in symbolism with light signals. Morse code was also used to explain that a prisoner was being tortured in a Vietnamese Prisoner of War camp, which led to his and other American's rescue just by blinking his eyes in a sequence! Emoticons are a very recent method of symbollic communication used to express subtle thoughts through messaging someone electronically; and can be interpretted differently depending on the generation of those that view them. Older generations can view emoticons literally, whereas younger generations can view emoticons metaphorically depending on the context. For example: the Eggplant, Peach, and various water emoticons are typically interpretted by younger generations sexually whereas they are more than likely interpretted as a literal eggplant, peach, and water by an older generation not aware of why those symbols are placed in that context. Moving on, symbols have been very important to Archaic humans such as the Egyptians and our hunter-gatherer stage when we carved symbols in caves. We could write stories of a hunt, showing our diets and even extant animals of the time for us to gaze and study upon today! Same thing with the Ancient Egyptians (Of which, are far more ancient to the Ancient Romans, than the Ancient Romans are to us). We still trying to decipher many hieroglyphics that the Ancient Egyptians have placed upon slabs for us to view today.
+Symbolism, and speaking in code is exceptionally important in Interpersonal Communication evolving over time. From Hieroglyphics to Morse code, emoticons to braille. Symbolism is incredibly important for high-context sub-cultures. For example, morse code is a significant requirement for military operations too sensitive to utilize radio signals which could give away communication. Morse code would additionally be important for operators on the ground within close proximity to opposing forces, disallowing said operators to speak anything vocally-- Communication must, then, be done in symbolism with light signals. Morse code was also used to explain that a prisoner was being tortured in a Vietnamese Prisoner of War camp, which led to his and other American's rescue just by blinking his eyes in a sequence! (The Infographics Show) Emoticons are a very recent method of symbollic communication used to express subtle thoughts through messaging someone electronically; and can be interpretted differently depending on the generation of those that view them. Older generations can view emoticons literally, whereas younger generations can view emoticons metaphorically depending on the context. For example: the Eggplant, Peach, and various water emoticons are typically interpretted by younger generations sexually, whereas they are more than likely interpretted as a literal eggplant, peach, and water by an older generation not aware of why those symbols are placed in that context. Moving on, symbols have been very important to Archaic humans such as the Egyptians and our hunter-gatherer stage when we carved symbols in caves. We could write stories of a hunt, showing our diets and even extant animals of the time for us to gaze and study upon today! Same thing with the Ancient Egyptians. We are still trying to decipher many hieroglyphics that the Ancient Egyptians have placed upon slabs for us to view today.
 \par
 % Outro
 I hope that I was able to intrigue you in the many ways Interpersonal Communication has evolved, and is still evolving over time. Communication is deeply important to who we are, it's fluid and most move dynamically according to the situation. If Interpersonal Communication was stagnant, our species would more than likely not have the dominance on Earth that it appreciates today. Let's continue to evolve.
+
+
+%works cited
+\begin{workscited}
+\bibent
+Smith, Arieh "Polyglot Ranks Top 5 Most Difficult Languages in the World".
+	\textit{YouTube}, uploaded by Xiaomanyc, 7 Aug. 2020,
+www.youtube.com/watch?v=VZGW01y\_lXo.
+
+\bibent
+Stern, David "Southern Accent".
+	\textit{Youtube}, uploaded by CZVids, 31 Dec. 2012,\\
+www.youtube.com/watch?v=XPfOL4wUuMU.
+
+\bibent
+Herman, Jozsef. \textit{Vulgar Latin}, Google Books, Penn State Press,
+ISBN 978-0-271-04177-3, 2010.
+
+\bibent
+Bell-Fialkoll, Andrew, ed \textit{The Role of Migration in the History of the Eurasian Steppe: Sedentary Civilization v. "Barbarian" and Nomad"} Palgrave Macmillan
+ISBN 0-312-21207-0, 2000.
+
+\bibent
+	Maddison, Angus. \textit{The World Economy: A Millenial Perspective} Organization for Economic Co-operation and Development
+	ISBN 978-92-64-18608-8, 2001
+\bibent
+Cowie, Anthony, Paul. \textit{The Oxford history of English lexicography, Volume 1}
+
+\bibent
+	Kardach, Jim. "Tech History: How Bluetooth got its name" eetimes
+	5 Mar. 2008
+\bibent The Infographics Show "POW Soldier Who Blinked "TORTURE" in Morse Code on TV".
+	\textit{YouTube}, uploaded by The Infographics Show, 7 Mar. 2020
+
+\bibent
+	Beckert, Sven. "Empire and Emancipation: Reconstructing the Worldwide Web of Cotton Production in the Age of the American Civil War." The American Historal Review, Vol. 109, No. 5, 2004
+
+
+\end{workscited}
+\end{flushleft}
 \end{document}
+\}
