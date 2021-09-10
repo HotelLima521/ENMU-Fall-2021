@@ -44,7 +44,7 @@ int arithmetic(){
 	else if(user_in == '%'){
 		do {
 			cout << "Invalid Operation, you cannot divide by Zero." << endl;
-			exit;
+			break;
 		}
 		while(user_in_1 == 0);
 		user_out = user_in_0 % user_in_1;
