@@ -19,3 +19,11 @@ Example 2: Perform the following addition of the signed numbers:
 ## Subtraction
 
 Subtraction is a special case of addition. To subtract two signed numbers, take the 2's complement of the subtrahend and add. Discard any final carry bit.
+
+## Overflow condition:
+
+When two numbers are added and the number of bits required to represent the sum exceeds the number of bits in the two numbers, an overflow results as indicated by incorrect sign bit.
+
+Perform the following addition of the signed numbers:
+
+00001100 - 11110111
