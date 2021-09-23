@@ -1,4 +1,5 @@
 # Homework 4
+## Derek White
 
 6. Convert the following to kilowatts:
 a. 1,000W = **1kW**
