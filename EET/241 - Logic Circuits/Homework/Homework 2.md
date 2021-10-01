@@ -5,7 +5,7 @@
 
 1. Convert each pair of decimal numbers to binary and add using the 2's complement form:
 a. 33 and 15 = **00110000**
-b. -46 and 25 = **01000111**
+b. -46 and 25 = **11101011**
 2. Perform each subtraction in the 2's complement form:
 a. 00110011 - 00010000 = **00100011**
 b. 01100101 - 11101000 = **01111101**
@@ -22,7 +22,7 @@ a. 33(10): 33/16=2.0625, 2/16=0.125, 0625\*16= 1, .125\*16=2, 33(10)= **21(16)**
 b. 52(10): 52/16=3.25, 3/16=0.1875, .25\*16=4, .1875\*16=3, 52(10)= **34(16)**
 6. Perform the following additions:
 a. 43(16)+62(16): 3+2=5, 4+6=10=A, 43(16)+62(16)= **A5(16)**
-b. FC(16)+AE(16): C+E=12+14=26, F+A+2=15+10+2=27, FC(16)+AE(16)= **276(16)**
+b. FC(16)+AE(16): **1AA(16)**
 
 ## Octal Numbers
 7. Convert each Octal number to decimal:
