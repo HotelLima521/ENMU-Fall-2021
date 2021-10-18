@@ -2,15 +2,15 @@
 
 int main(){
 	
-	int avg, integer_num, integer_input, count, sum, largest, smallest, range;
+	int N, avg, integer_num, integer_input, count, sum, largest, smallest, range;
 	std::cout << "Please enter the amount of integers you would like to calculate\n-> ";
-	std::cin >> integer_num;
+	std::cin >> N;
 	std::cout << "Please enter an integer\n-> ";
-	std::cin >> integer_input;
+	std::cin >> integer_num;
 	
 	largest = smallest = integer_input;
-	for(count=1; count < integer_num; ++count){
-		std::cout << "Please enter an integer\n-> ";
+	for(count=1; count < N; ++count){
+		//std::cout << "Please enter an integer\n-> ";
 		std::cin >> integer_input;
 		sum += integer_input;
 		if(integer_input > largest){
@@ -21,7 +21,7 @@ int main(){
 		}
 	}
 	
-	avg = sum/integer_num;
+	avg = sum/N;
 	range = largest-smallest;
 	//std::cout << "Largest Smallest" << largest << ' ' << smallest << std::endl;
 	std::cout << "The Sum is: " << sum << std::endl;
