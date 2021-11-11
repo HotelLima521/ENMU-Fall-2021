@@ -13,44 +13,37 @@ int main(){
 
 	// Initial line from user input
 	// LOGIC:
-	// Top is less tan and equal to 15, highest range of input for top
+	// Top is less than and equal to 15, highest range of input for top
 	// top is odd
-	if(a <= 15 && a % 2 != 0){
-		for(int i = 0; i <= b-a/2; i++){
-			std::cout << ws;
+		
+	if((a <= 15 && a % 2 != 0) && (b <=17 && a < b && b % 2 != 0)){
+		for(int i = a; i <= b; i+=2){
+			for(int j = 1; j <= (b-i); j+=2){
+				std::cout << ws;
+			}
+			for(int j = 0; j < i; j++){
+				std::cout << print;
+			}
+			std::cout << std::endl;
 		}
-		for(int i = 0; i < a; i++){
-			std::cout << print;
-		}
-		std::cout << std::endl;
 	}
-	// Filling the gap
-	// Logic:
-	// Fill is equal to top line +2
-	// Fill is equal less than bottom line
-	// Fill = Fill + 2
-	for(int i = a+2; i < b; i +=2){
-		for(int j = 0; j < b; j++){
-			std::cout << print;
-		}
-		std::cout << std::endl;
+	// Error statements
+	else if(a % 2 == 0){
+		std::cout << "Your top input is even, must be odd." << std::endl;
 	}
-	// Final line from user input
-	// LOGIC:
-	// Bottom is less than and equal to 17, which is highest range of input for bottom
-	// bottom is odd
-	// bottom is greater than a
-	if(b <= 17 && b % 2 != 0 && b > a){
-		for(int i = 0; i <=b-a/2; i++){
-			std::cout << ws;
-		}
-		for(int i = 0; i < b; i++){
-			std::cout << print;
-		}
-		std::cout << std::endl;
+	else if(b % 2 == 0){
+		std::cout << "Your bottom input is even, must be odd." << std::endl;
+	}
+	else if(a > 15){
+		std::cout << "Your top input is greater than 15, must be between 1 and 15." << std::endl;
+	}
+	else if(b > 17 || b < 3){
+		std::cout << "Your bottom input is greater than 17, or less than 3, must be between 3 and 17." << std::endl;
 	}
 	else{
 		std::cout << "Uh oh!\nLooks like you tried to enter in a number smaller than the top of the trapezoid. Technically this will still work, but not what we are looking for :)" << std::endl;
 	}
+
+	
 	return 0;
 }
